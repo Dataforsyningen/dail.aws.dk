@@ -2,7 +2,7 @@ var valgtadresse= null;
 var map= null;
 var korttype= null;
 var geojsonlayer= null;
-var host= "http://dawa.aws.dk";
+var host= "https://api.dataforsyningen.dk";
 var corssupported= "withCredentials" in (new XMLHttpRequest()); 
 
 $( document ).on( "pageinit", "#soeg", function() {
